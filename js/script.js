@@ -150,11 +150,11 @@ function enhanceHero() {
     statsRow.id = 'heroStatsRow';
     statsRow.className = 'hero-stats';
     statsRow.innerHTML = `
-      <div class="stat-cell"><strong>50K+</strong><span>STUDENTS REACHED</span></div>
+      <div class="stat-cell"><strong>10K+</strong><span>STUDENTS REACHED</span></div>
       <div class="stat-divider"></div>
-      <div class="stat-cell"><strong>38+</strong><span>CAMPUSES</span></div>
+      <div class="stat-cell"><strong>10+</strong><span>CAMPUSES</span></div>
       <div class="stat-divider"></div>
-      <div class="stat-cell"><strong>223+</strong><span>EVENTS</span></div>`;
+      <div class="stat-cell"><strong>22+</strong><span>EVENTS</span></div>`;
     heroCopy.appendChild(statsRow);
   }
 }
@@ -202,8 +202,8 @@ function updateClock() {
 }
 
 const RULES = {
-  name:  { re: /^[A-Za-z][A-Za-z .'-]{1,59}$/, msg: 'Enter your full name (letters, spaces, dots only).' },
-  roll:  { re: /^\d{10}$/, msg: 'Roll number must be exactly 10 digits.' },
+  name: { re: /^[A-Za-z][A-Za-z .'-]{1,59}$/, msg: 'Enter your full name (letters, spaces, dots only).' },
+  roll: { re: /^\d{10}$/, msg: 'Roll number must be exactly 10 digits.' },
   email: { re: /^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/, msg: 'Enter a valid email address.' },
   phone: { re: /^[6-9]\d{9}$/, msg: 'Enter a valid 10-digit mobile number.' }
 };
